@@ -18,166 +18,334 @@ section
 
 		div.tab-content
 			div(class="tab-pane active", id="best-seller", role="tabpanel")
-				div(id="bSeller", class="carousel slide", data-ride="carousel")
-					div(class="carousel-inner row w-100 mx-auto")
-						div(class="carousel-item col-md-3 active")
-							div.card
-								img(class="card-img-top img-fluid", src="img/card1.png")
-								div.card-body
-									h4.card-title
-										| Adobe Photoshop Beginers Course
-										span.price
-											span.icon.icon-inr
-											| 1999
-									p.card-text
-										| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
-									ul
-										li.my-auto
-											span.icon.icon-clock
-											| 12h 30m
-										li.my-auto
-											span.icon.icon-heart
-											| 80000
-										li.my-auto
-											button(type="button" class="btn btn-primary btn-sm")
-												| Add to Cart
-
-						div(class="carousel-item col-md-3")
-							div.card
-								img(class="card-img-top img-fluid", src="img/card2.png")
-								div.card-body
-									h4.card-title
-										| Adobe Photoshop Beginers Course
-										span.price
-											span.icon.icon-inr
-											| 1999
-									p.card-text
-										| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
-									ul
-										li.my-auto
-											span.icon.icon-clock
-											| 12h 30m
-										li.my-auto
-											span.icon.icon-heart
-											| 80000
-										li.my-auto
-											button(type="button" class="btn btn-primary btn-sm")
-												| Add to Cart
-
-						div(class="carousel-item col-md-3")
-							div.card
-								img(class="card-img-top img-fluid", src="img/card3.png")
-								div.card-body
-									h4.card-title
-										| Adobe Photoshop Beginers Course
-										span.price
-											span.icon.icon-inr
-											| 1999
-									p.card-text
-										| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
-									ul
-										li.my-auto
-											span.icon.icon-clock
-											| 12h 30m
-										li.my-auto
-											span.icon.icon-heart
-											| 80000
-										li.my-auto
-											button(type="button" class="btn btn-primary btn-sm")
-												| Add to Cart
-
-						div(class="carousel-item col-md-3")
-							div.card
-								img(class="card-img-top img-fluid", src="img/card4.png")
-								div.card-body
-									h4.card-title
-										| Adobe Photoshop Beginers Course
-										span.price
-											span.icon.icon-inr
-											| 1999
-									p.card-text
-										| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
-									ul
-										li.my-auto
-											span.icon.icon-clock
-											| 12h 30m
-										li.my-auto
-											span.icon.icon-heart
-											| 80000
-										li.my-auto
-											button(type="button" class="btn btn-primary btn-sm")
-												| Add to Cart
-						div(class="carousel-item col-md-3")
-							div.card
-								img(class="card-img-top img-fluid", src="img/card2.png")
-								div.card-body
-									h4.card-title
-										| Adobe Photoshop Beginers Course
-										span.price
-											span.icon.icon-inr
-											| 1999
-									p.card-text
-										| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
-									ul
-										li.my-auto
-											span.icon.icon-clock
-											| 12h 30m
-										li.my-auto
-											span.icon.icon-heart
-											| 80000
-										li.my-auto
-											button(type="button" class="btn btn-primary btn-sm")
-												| Add to Cart
-
-						div(class="carousel-item col-md-3")
-							div.card
-								img(class="card-img-top img-fluid", src="img/card3.png")
-								div.card-body
-									h4.card-title
-										| Adobe Photoshop Beginers Course
-										span.price
-											span.icon.icon-inr
-											| 1999
-									p.card-text
-										| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
-									ul
-										li.my-auto
-											span.icon.icon-clock
-											| 12h 30m
-										li.my-auto
-											span.icon.icon-heart
-											| 80000
-										li.my-auto
-											button(type="button" class="btn btn-primary btn-sm")
-												| Add to Cart
-
-						div(class="carousel-item col-md-3")
-							div.card
-								img(class="card-img-top img-fluid", src="img/card4.png")
-								div.card-body
-									h4.card-title
-										| Adobe Photoshop Beginers Course
-										span.price
-											span.icon.icon-inr
-											| 1999
-									p.card-text
-										| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
-									ul
-										li.my-auto
-											span.icon.icon-clock
-											| 12h 30m
-										li.my-auto
-											span.icon.icon-heart
-											| 80000
-										li.my-auto
-											button(type="button" class="btn btn-primary btn-sm")
-												| Add to Cart
-					button(type="button" class="slider-btn left")
-						span.icon.icon-angle-left
-
+				div.carousel-outter
+					div.card
+						img(class="card-img-top img-fluid", src="img/card1.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card2.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card3.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card4.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+			
 			div(class="tab-pane", id="popular", role="tabpanel")
-				| Popular
+				div.carousel-outter
+					div.card
+						img(class="card-img-top img-fluid", src="img/card1.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card2.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card3.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card4.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+
 			div(class="tab-pane", id="free", role="tabpanel")
-				| Free
+				div.carousel-outter
+					div.card
+						img(class="card-img-top img-fluid", src="img/card1.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card2.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card3.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card4.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+			
 			div(class="tab-pane", id="e-books", role="tabpanel")
-				| E-Books
+				div.carousel-outter
+					div.card
+						img(class="card-img-top img-fluid", src="img/card1.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card2.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card3.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+					div.card
+						img(class="card-img-top img-fluid", src="img/card4.png")
+						div.card-body
+							h4.card-title
+								| Adobe Photoshop Beginers Course
+								span.price
+									span.icon.icon-inr
+									| 1999
+							p.card-text
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lacus eget ullamcorper accumsan. Nunc efficitur lacinia fringilla. Etiam quis consectetur orci, id condimentum diam.
+							ul
+								li.my-auto
+									span.icon.icon-clock
+									| 12h 30m
+								li.my-auto
+									span.icon.icon-heart
+									| 80000
+								li.my-auto
+									button(type="button" class="btn btn-primary btn-sm")
+										| Add to Cart
+			

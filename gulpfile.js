@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 function copy(done){
 	gulp.src('./node_modules/bootstrap/dist/css/bootstrap.css')
 		.pipe(gulp.dest('./dest/css'));
-	gulp.src(['./node_modules/jquery/dist/jquery.js', './node_modules/popper.js/dist/popper.js', './node_modules/bootstrap/dist/js/bootstrap.js'])
+	gulp.src(['./node_modules/jquery/dist/jquery.js', './node_modules/owl.carousel/dist/owl.carousel.js', './node_modules/popper.js/dist/popper.js', './node_modules/bootstrap/dist/js/bootstrap.js'])
 		.pipe(gulp.dest('./dest/js'));
 	done();
 }

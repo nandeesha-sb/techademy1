@@ -128,44 +128,20 @@ input, button {
 			li a {
 				padding: 10px 5px;
 				&.active{
-					border-bottom: 2px solid #007bff;
+					border-bottom: 3px solid #007bff;
 				}
 			}
 		}
-		.carousel {
-			.slider-btn {
-				position: absolute;
-				top: 190px;
-				font-size: 1.5em;
-				background-color: rgba(62, 117, 249, 0.40);
-				width: 35px;
-				height: 35px;
-				border-radius: 50%;
-				overflow: hidden;
-				border: 0;
-				span {
-					position: absolute;
-					top: 2px;
-					left: 4px;
-				}
-			}
-		}
-		.carousel-inner {
-			align-items: center;
-			-webkit-box-align: center;
-			position: relative;
-			.carousel-item {
-				-webkit-backface-visibility: hidden;
-			    backface-visibility: hidden;
-			    -webkit-perspective: 1000px;
-			    perspective: 1000px;
-			}
+		.carousel-outter {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
 		}
 		.card {
-			max-width: 320px;
 			background-color: rgba(62, 117, 249, 0.46);
-			height: 412px;
+			height: 410px;
 			overflow: hidden;
+			margin-right: 10px;
 			.card-body, .card-body ul {
 				display: flex;
 				justify-content: space-between;
@@ -333,6 +309,3 @@ input, button {
 		height: 400px;
 	}
 }
-
-
-
